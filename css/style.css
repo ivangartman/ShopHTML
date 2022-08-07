@@ -15,11 +15,6 @@ header {
     height: 100%;
 }
 
-
-/* footer {
-    background-color: blue;
-} */
-
 .wrapper {
     min-height: 100vh;
     display: flex;
@@ -47,10 +42,15 @@ header {
 .header_list {
     display: flex;
     align-items: center;
+    list-style-type: none;
+}
+
+.header_list li {
+    display: flex;
 }
 
 .header_list a {
-    padding: 16px;
+    padding: 15px;
     text-decoration: none;
 }
 
