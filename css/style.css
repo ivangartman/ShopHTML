@@ -43,19 +43,16 @@ header {
     list-style-type: none;
 }
 
-.header_list li {
-    display: flex;
-}
-
 .header_list__link {
     padding: 16px;
     text-decoration: none;
 }
 
 .menu_list {
+    display: flex;
     position: relative;
+    list-style: none;
 }
-
 
 .mega_box {
     background-color: #FFFFFF;
@@ -179,7 +176,7 @@ header {
 .project__item {
     position: relative;
     background: rgba(33, 22, 22);
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 .project__item:hover {
@@ -187,8 +184,11 @@ header {
 }
 
 .project__img {
-    width: 100%;
+    display: block;
+    align-self: center;
     opacity: 0.3;
+    width: 100%;
+    height: 100%;
 }
 
 .project__img:hover {
@@ -235,4 +235,347 @@ header {
     font-size: 24px;
     line-height: 29px;
     color: #F16D7F;
+}
+
+/* Стилизация карточек товаров */
+/* --------------------------- */
+.heading__h3__wat-we-do {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.text_wat-we-do {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #9F9F9F;
+}
+
+.wat-we-do {
+    margin-bottom: 95px;
+}
+
+.card-box {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 360px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background: #F8F8F8;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.card:hover:before {
+    content: "Add to Cart";
+    display: block;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 180px;
+    left: 110px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    background: rgba(58, 56, 56);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 50px;
+    padding-right: 15px;
+
+    background-image: url("..//img/Vector.svg");
+    background-position: left;
+    background-position-x: 13px;
+    background-repeat: no-repeat;
+}
+
+.card__link {
+    text-decoration: none;
+}
+
+.card__link:hover {
+    background: rgba(58, 56, 56);
+}
+
+.card__img {
+    align-self: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card__img:hover {
+    opacity: 0.14;
+}
+
+.heading__mini {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding-left: 18px;
+    padding-bottom: 13px;
+    text-transform: uppercase;
+    margin-top: 24px;
+}
+
+.text_card {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding-left: 18px;
+}
+
+.price {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 18px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    color: #F16D7F;
+}
+
+.button {
+    margin: 0 auto 0;
+    background-color: #FFFFFF;
+    color: #F26376;
+    width: 211px;
+    height: 47px;
+    text-align: center;
+    line-height: 47px;
+    border: 1px solid #FF6A6A;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.button:hover {
+    background: #F16D7F;
+    border: 1px solid #FF6A6A;
+    color: #FFFFFF;
+}
+
+
+/* Стилизация футера */
+/* --------------------------- */
+
+.footer_top {
+    background: #222224;
+}
+
+.footer_top__info {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 104px;
+    padding-bottom: 104px;
+}
+
+.footer_top__content {
+    width: 360px;
+    text-align: center;
+}
+
+.footer_top__h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FBFBFB;
+    margin-top: 19px;
+    margin-bottom: 16px;
+}
+
+.footer_top__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+}
+
+.foter_contact {
+    background-image: url("..//img/footer.png");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer_contact_container {
+    padding-top: 87px;
+    padding-bottom: 127px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_contact__content {
+    width: 360px;
+    text-align: center;
+}
+
+.footer_contact__img {
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.footer_contact__text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+}
+
+.footer_contact__form {
+    padding-left: 327px;
+    text-align: center;
+}
+
+.form_h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #222224;
+    text-transform: uppercase;
+}
+
+.text_form {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #222224;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+
+.form_input {
+    background: #E1E1E1;
+    border: 1px solid transparent;
+    outline: none;
+    width: 256px;
+    height: 49px;
+    border-radius: 50px 0 0 50px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    color: #222224;
+    opacity: 0.67;
+    padding: 22px;
+}
+
+.form_button {
+    margin: auto 0;
+    background-color: #F16D7F;
+    color: #FFFFFF;
+    width: 100px;
+    height: 49px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 0 50px 50px 0;
+    border: 1px solid transparent;
+    margin-left: -4px;
+}
+
+.form_button:hover {
+    background-color: #FFFFFF;
+    color: #F16D7F;
+    border: 1px solid #FF6A6A;
+}
+
+/* Стилизация футера социальные сети */
+/* --------------------------- */
+
+.footer_botton {
+    background: #222224;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    align-items: center;
+}
+
+.footer-social p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+
+.footer-social-list {
+    list-style: none;
+    display: flex;
+    margin-top: 0;
+}
+
+.footer-social-item {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    margin-left: 7px;
+}
+
+.social-button {
+    flex-grow: 1;
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+.social-button img {
+    margin: auto;
+}
+
+
+.social-button:hover,
+.social-button:focus {
+    background-color: #F16D7F;
+    ;
 }
