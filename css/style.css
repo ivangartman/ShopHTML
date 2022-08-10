@@ -161,38 +161,60 @@ header {
     color: #F16D7F;
 }
 
+/* -----------------------------
+----------Банер-------------- */
+
 .project {
     margin-top: 65px;
     margin-bottom: 96px;
 }
 
-.project__parent {
+.project_parent {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-    align-items: center;
 }
 
-.project__item {
-    position: relative;
+.project_parent__item {
+    width: 360px;
+    height: 260px;
     background: rgba(33, 22, 22);
-    /* text-decoration: none; */
+    text-align: center;
+    background-position: center;
+
 }
 
-.project__item:hover {
+.project_parent__item:hover {
     background: none;
 }
 
-.project__img {
+.project__item {
     display: block;
-    align-self: center;
-    opacity: 0.3;
     width: 100%;
     height: 100%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    opacity: 0.3;
+    padding-top: 105px;
+    /* background-size: contain; */
+    background-size: 100% 100%;
 }
 
-.project__img:hover {
+.project__item:hover {
     opacity: 1;
+}
+
+.project__item1 {
+    background-image: url("..//img/project-1.png");
+}
+
+.project__item2 {
+    background-image: url("..//img/project-2.png");
+}
+
+
+.project__item3 {
+    background-image: url("..//img/project-3.png");
 }
 
 .project__text_parent {
@@ -200,22 +222,6 @@ header {
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
-    position: absolute;
-    text-align: center;
-    top: 105px;
-    pointer-events: none;
-}
-
-.project__text_parent_1 {
-    left: 103px;
-}
-
-.project__text_parent_2 {
-    left: 125px;
-}
-
-.project__text_parent_3 {
-    left: 122px;
 }
 
 .project__text {
@@ -223,11 +229,7 @@ header {
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
-    position: absolute;
     text-align: center;
-    top: 65px;
-    right: 489px;
-    pointer-events: none;
 }
 
 .project__text__span {
@@ -236,6 +238,39 @@ header {
     line-height: 29px;
     color: #F16D7F;
 }
+
+.project_parent_booton {
+    display: flex;
+}
+
+.project_parent_booton__item {
+    width: 1140px;
+    min-height: 180px;
+    background: rgba(33, 22, 22);
+    text-align: center;
+}
+
+.project_parent_booton__item:hover {
+    background: none;
+}
+
+.project__item4 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    opacity: 0.3;
+    padding-top: 65px;
+    background-image: url("..//img/project-4.png");
+    background-size: 100% 100%;
+}
+
+.project__item4:hover {
+    opacity: 1;
+}
+
+/* --------------------------- */
 
 /* Стилизация карточек товаров */
 /* --------------------------- */
