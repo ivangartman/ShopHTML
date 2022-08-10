@@ -5,8 +5,7 @@
 }
 
 body {
-    font-family: sans-serif;
-    font-family: 'Lato';
+    font-family: 'Lora', serif;
 }
 
 header {
@@ -75,7 +74,7 @@ header {
 }
 
 .mega_box_heading {
-    font-family: 'Lato';
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -90,7 +89,7 @@ header {
 }
 
 .mega_heading {
-    font-family: Lato;
+    font-family: 'Lora', serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 17px;
@@ -102,7 +101,7 @@ header {
 
 .mega_link {
     display: block;
-    font-family: 'Lato';
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -275,7 +274,7 @@ header {
 /* Стилизация карточек товаров */
 /* --------------------------- */
 .heading__h3__wat-we-do {
-    font-family: 'Lato';
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -286,7 +285,7 @@ header {
 }
 
 .text_wat-we-do {
-    font-family: 'Lato';
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -367,7 +366,7 @@ header {
 }
 
 .heading__mini {
-    font-family: 'Lato';
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -380,7 +379,7 @@ header {
 }
 
 .text_card {
-    font-family: 'Lato';
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -390,7 +389,7 @@ header {
 }
 
 .price {
-    font-family: 'Lato';
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -410,7 +409,7 @@ header {
     text-align: center;
     line-height: 47px;
     border: 1px solid #FF6A6A;
-    font-family: 'Lato';
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -443,7 +442,7 @@ header {
 }
 
 .footer_top__h3 {
-    font-family: 'Lato';
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -488,7 +487,7 @@ header {
 }
 
 .footer_contact__text {
-    font-family: 'Lato';
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -503,7 +502,7 @@ header {
 }
 
 .form_h3 {
-    font-family: 'Lato';
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -513,7 +512,7 @@ header {
 }
 
 .text_form {
-    font-family: 'Lato';
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -531,7 +530,7 @@ header {
     width: 256px;
     height: 49px;
     border-radius: 50px 0 0 50px;
-    font-family: 'Lato';
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -577,7 +576,7 @@ header {
 }
 
 .footer-social p {
-    font-family: 'Lato';
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
