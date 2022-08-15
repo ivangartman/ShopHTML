@@ -51,8 +51,7 @@ header {
 }
 
 .mega_box_heading {
-    font-family: 'Lora', serif;
-    font-style: normal;
+    @extend .font;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
@@ -66,7 +65,7 @@ header {
 }
 
 .mega_heading {
-    font-family: 'Lora', serif;
+    @extend .font;
     font-size: 14px;
     font-weight: 700;
     line-height: 17px;
@@ -78,9 +77,7 @@ header {
 
 .mega_link {
     display: block;
-    font-family: 'Lora', serif;
-    font-style: normal;
-    font-weight: 400;
+    @extend .font;
     font-size: 14px;
     line-height: 17px;
     color: #6F6E6E;

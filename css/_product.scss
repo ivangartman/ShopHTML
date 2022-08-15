@@ -1,0 +1,258 @@
+/* Стилизация хлебных крошек */
+/* --------------------------- */
+.nav_product {
+    background: #F8F3F4;
+}
+
+.nav_product_item {
+    display: flex;
+    justify-content: space-between;
+    padding: 59px 0 60px;
+    height: 148px;
+}
+
+.nav_product_item__H3 {
+    @extend .font;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    margin: 0;
+}
+
+.breadcrumb-item__text {
+    @extend .font;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+    text-decoration: none;
+    padding: 0;
+}
+
+.breadcrumb-item__text:hover {
+    color: #F16D7F;
+}
+
+.active_item {
+    color: #F16D7F;
+    text-transform: uppercase;
+    pointer-events: none;
+}
+
+/* Стилизация карточки товара */
+/* --------------------------- */
+.card_product {
+    background: #F7F7F7;
+    max-width: 1600px;
+    margin: 0 auto;
+    border: 1px solid #EAEAEA;
+    border-bottom: none;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__item {
+    list-style: none;
+}
+
+ol.product {
+    margin: 0;
+    padding: 0;
+}
+
+.product_link__left {
+    padding: 12px;
+    background: rgba(42, 42, 42, 0.15);
+}
+
+.product_link {
+    padding: 12px;
+    background: rgba(42, 42, 42, 0.15);
+}
+
+.product_link:hover .link_img__left {
+    display: none;
+}
+
+.link_img__left_active {
+    display: none;
+    transform: scaleX(-1);
+}
+
+.product_link:hover .link_img__left_active {
+    display: inline;
+}
+
+.link_img__right {
+    transform: scaleX(-1);
+}
+
+.product_link:hover .link_img__right {
+    display: none;
+}
+
+.link_img__right_active {
+    display: none;
+}
+
+.product_link:hover .link_img__right_active {
+    display: inline;
+}
+
+.product_description {
+    background: #F7F7F7;
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 100px;
+    position: relative;
+    margin-bottom: 600px;
+    border: 1px solid #EAEAEA;
+    border-top: none;
+}
+
+.description {
+    position: absolute;
+    background: #FFFFFF;
+    left: 230px;
+    text-align: center;
+    padding: 65px 0;
+    border: 1px solid #EAEAEA;
+    align-items: center;
+}
+
+.hr_top {
+    border: 3px solid #EF5B70;
+    opacity: 1;
+    width: 63px;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.description_text__1 {
+    @extend .font;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.description_text__2 {
+    @extend .font;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.description_text__3 {
+    @extend .font;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+
+
+.description_price {
+    @extend .font;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+    margin: 0;
+}
+
+.hr_button {
+    border: 1px solid #EAEAEA;
+    opacity: 1;
+    width: 641px;
+    margin: 0 auto;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.description_view {
+    display: flex;
+    justify-content: center;
+}
+
+.description_view__item {
+    list-style: none;
+    background-image: url("..//img/description_view_pic.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 19px;
+}
+
+.description_view__text {
+    @extend .font;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    padding-left: 23px;
+    text-decoration: none;
+}
+
+.description_view__text:hover {
+    color: #F26376;
+}
+
+.description_view__text1 {
+    padding: 0;
+}
+
+ol.description_view {
+    margin: 0;
+    padding: 0;
+}
+
+.description_button {
+    margin-top: 49px;
+}
+
+.description_button__link {
+    display: flex;
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    color: #F26376;
+    width: 211px;
+    height: 47px;
+    text-align: center;
+    align-items: center;
+    line-height: 47px;
+    border: 1px solid #FF6A6A;
+    @extend .font;
+    font-size: 16px;
+    background-image: url("..//img/basket-red.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position: 23px;
+}
+
+.description_button__link:hover {
+    background: #F16D7F;
+    border: 1px solid #FF6A6A;
+    color: #FFFFFF;
+    background-image: url("..//img/basket-white.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position: 23px;
+}
+
+.description_button__text {
+    margin: 0 auto;
+    padding-left: 23px;
+}

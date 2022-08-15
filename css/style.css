@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Lora", serif;
-}
-
 .wrapper {
   min-height: 100vh;
   display: flex;
@@ -22,6 +18,12 @@ body {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+.font, .footer-social p, .form_input, .text_form, .form_h3, .footer_contact__text, .footer_top__text, .footer_top__h3, .page-link1, .choice_details .choice_summary, .filter_category__link, .filter_list .filter_category, .filter_top .filter_top__item, .description_button__link, .description_view__text, .description_price, .description_text__3, .description_text__2, .description_text__1, .breadcrumb-item__text, .nav_product_item__H3, .button, .price, .text_card, .heading__mini, .text_wat-we-do, .heading__h3__wat-we-do, .add_desc, .project__text__span, .project__text, .project__text_parent, .header_text, .header_h1, .mega_link, .mega_heading, .mega_box_heading {
+  font-family: "Lora", serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 header {
@@ -75,8 +77,6 @@ header {
 }
 
 .mega_box_heading {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
@@ -90,7 +90,6 @@ header {
 }
 
 .mega_heading {
-  font-family: "Lora", serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 17px;
@@ -102,9 +101,6 @@ header {
 
 .mega_link {
   display: block;
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #6F6E6E;
@@ -142,17 +138,18 @@ header {
 }
 
 .header_h1 {
-  margin: 0;
   font-weight: 900;
   font-size: 48px;
   line-height: 58px;
   color: #222222;
+  margin: 0;
 }
 
 .header_text {
   font-weight: 700;
   font-size: 32px;
   line-height: 38px;
+  color: #222222;
 }
 
 .header_text span {
@@ -213,14 +210,12 @@ header {
 }
 
 .project__text_parent {
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
 }
 
 .project__text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
@@ -265,7 +260,6 @@ header {
   opacity: 1;
 }
 
-/* --------------------------- */
 /* Стилизация карточек товаров */
 /* --------------------------- */
 .item_sec {
@@ -306,9 +300,6 @@ header {
 }
 
 .add_desc {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
@@ -335,9 +326,7 @@ header {
 }
 
 .heading__h3__wat-we-do {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   color: #222222;
@@ -346,9 +335,6 @@ header {
 }
 
 .text_wat-we-do {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   text-align: center;
@@ -364,9 +350,6 @@ header {
 }
 
 .heading__mini {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 13px;
   line-height: 16px;
   color: #000000;
@@ -377,8 +360,6 @@ header {
 }
 
 .text_card {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
@@ -387,9 +368,6 @@ header {
 }
 
 .price {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   padding-left: 18px;
@@ -403,6 +381,7 @@ header {
 }
 
 .button {
+  font-size: 16px;
   margin: 0 auto;
   background-color: #FFFFFF;
   color: #F26376;
@@ -411,10 +390,6 @@ header {
   text-align: center;
   line-height: 47px;
   border: 1px solid #FF6A6A;
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
 }
 
 .button:hover {
@@ -427,198 +402,6 @@ header {
   text-decoration: none;
 }
 
-/* Стилизация футера */
-/* --------------------------- */
-.footer_top {
-  background: #222224;
-}
-
-.footer_top__info {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 104px;
-  padding-bottom: 104px;
-}
-
-.footer_top__content {
-  width: 360px;
-  text-align: center;
-}
-
-.footer_top__h3 {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  color: #FBFBFB;
-  margin-top: 19px;
-  margin-bottom: 16px;
-}
-
-.footer_top__text {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 17px;
-  text-align: center;
-  color: #FBFBFB;
-}
-
-.foter_contact {
-  background-image: url("..//img/footer.png");
-  background-size: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.footer_contact_container {
-  padding-top: 87px;
-  padding-bottom: 127px;
-  display: flex;
-  align-items: center;
-}
-
-.footer_contact__content {
-  width: 360px;
-  text-align: center;
-}
-
-.footer_contact__img {
-  border-radius: 50%;
-  overflow: hidden;
-  margin-bottom: 10px;
-}
-
-.footer_contact__text {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-  color: #222224;
-}
-
-.footer_contact__form {
-  padding-left: 327px;
-  text-align: center;
-}
-
-.form_h3 {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 40px;
-  color: #222224;
-  text-transform: uppercase;
-}
-
-.text_form {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-  color: #222224;
-  text-transform: uppercase;
-  margin-bottom: 32px;
-}
-
-.form_input {
-  background: #E1E1E1;
-  border: 1px solid transparent;
-  outline: none;
-  width: 256px;
-  height: 49px;
-  border-radius: 50px 0 0 50px;
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  align-items: center;
-  color: #222224;
-  opacity: 0.67;
-  padding: 22px;
-}
-
-.form_button {
-  margin: auto 0;
-  background-color: #F16D7F;
-  color: #FFFFFF;
-  width: 100px;
-  height: 49px;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 0 50px 50px 0;
-  border: 1px solid transparent;
-  margin-left: -4px;
-}
-
-.form_button:hover {
-  background-color: #FFFFFF;
-  color: #F16D7F;
-  border: 1px solid #FF6A6A;
-}
-
-/* Стилизация футера социальные сети */
-/* --------------------------- */
-.footer_botton {
-  background: #222224;
-}
-
-.footer-social {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  align-items: center;
-}
-
-.footer-social p {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FBFBFB;
-}
-
-.footer-social-list {
-  list-style: none;
-  display: flex;
-  margin-top: 0;
-}
-
-.footer-social-item {
-  display: flex;
-  width: 32px;
-  height: 32px;
-  margin-left: 7px;
-}
-
-.social-button {
-  flex-grow: 1;
-  display: flex;
-  background-color: #FFFFFF;
-}
-
-.social-button img {
-  margin: auto;
-}
-
-.social-button:hover,
-.social-button:focus {
-  background-color: #F16D7F;
-}
-
-/* --------------------------- */
-/* --------------------------- */
-/* СТИЛИЗАЦИЯ СТРАНИЦЫ PRODUCT */
-/* --------------------------- */
-/* --------------------------- */
 /* Стилизация хлебных крошек */
 /* --------------------------- */
 .nav_product {
@@ -633,9 +416,6 @@ header {
 }
 
 .nav_product_item__H3 {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 24px;
   line-height: 29px;
   color: #F16D7F;
@@ -643,8 +423,6 @@ header {
 }
 
 .breadcrumb-item__text {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
@@ -758,8 +536,6 @@ ol.product {
 }
 
 .description_text__1 {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
@@ -769,8 +545,6 @@ ol.product {
 }
 
 .description_text__2 {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 22px;
@@ -780,8 +554,6 @@ ol.product {
 }
 
 .description_text__3 {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
@@ -792,9 +564,6 @@ ol.product {
 }
 
 .description_price {
-  font-family: "Lora", serif;
-  font-family: "Lato";
-  font-style: normal;
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
@@ -825,14 +594,11 @@ ol.product {
 }
 
 .description_view__text {
-  text-decoration: none;
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #6F6E6E;
   padding-left: 23px;
+  text-decoration: none;
 }
 
 .description_view__text:hover {
@@ -864,9 +630,6 @@ ol.description_view {
   align-items: center;
   line-height: 47px;
   border: 1px solid #FF6A6A;
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   background-image: url("..//img/basket-red.svg");
   background-repeat: no-repeat;
@@ -923,8 +686,6 @@ details > summary {
 }
 
 .filter_top .filter_top__item {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
@@ -972,9 +733,6 @@ details > summary {
 }
 
 .filter_list .filter_category {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #6F6E6E;
@@ -1025,13 +783,10 @@ details > summary {
 
 .filter_category__link {
   display: block;
-  text-decoration: none;
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #6F6E6E;
+  text-decoration: none;
   padding-top: 5.5px;
   padding-bottom: 5.5px;
 }
@@ -1075,13 +830,10 @@ details > summary {
 }
 
 .choice_details .choice_summary {
-  text-transform: uppercase;
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #6F6E6E;
+  text-transform: uppercase;
 }
 
 .choice_details[open] .choice_summary {
@@ -1108,9 +860,6 @@ details > summary {
 }
 
 .filter_list .filter_category {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #6F6E6E;
@@ -1173,8 +922,6 @@ details > summary {
 }
 
 .page-link1 {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
@@ -1183,4 +930,171 @@ details > summary {
 
 .page-link1:hover {
   color: #EF5B70;
+}
+
+.footer_top {
+  background: #222224;
+}
+
+.footer_top__info {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 104px;
+  padding-bottom: 104px;
+}
+
+.footer_top__content {
+  width: 360px;
+  text-align: center;
+}
+
+.footer_top__h3 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #FBFBFB;
+  margin-top: 19px;
+  margin-bottom: 16px;
+}
+
+.footer_top__text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FBFBFB;
+}
+
+.foter_contact {
+  background-image: url("..//img/footer.png");
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer_contact_container {
+  padding-top: 87px;
+  padding-bottom: 127px;
+  display: flex;
+  align-items: center;
+}
+
+.footer_contact__content {
+  width: 360px;
+  text-align: center;
+}
+
+.footer_contact__img {
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.footer_contact__text {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #222224;
+}
+
+.footer_contact__form {
+  padding-left: 327px;
+  text-align: center;
+}
+
+.form_h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #222224;
+  text-transform: uppercase;
+}
+
+.text_form {
+  font-size: 18px;
+  line-height: 30px;
+  color: #222224;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.form_input {
+  background: #E1E1E1;
+  border: 1px solid transparent;
+  outline: none;
+  width: 256px;
+  height: 49px;
+  border-radius: 50px 0 0 50px;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  color: #222224;
+  opacity: 0.67;
+  padding: 22px;
+}
+
+.form_button {
+  margin: auto 0;
+  background-color: #F16D7F;
+  color: #FFFFFF;
+  width: 100px;
+  height: 49px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 0 50px 50px 0;
+  border: 1px solid transparent;
+  margin-left: -4px;
+}
+
+.form_button:hover {
+  background-color: #FFFFFF;
+  color: #F16D7F;
+  border: 1px solid #FF6A6A;
+}
+
+/* Стилизация футера социальные сети */
+/* --------------------------- */
+.footer_botton {
+  background: #222224;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  align-items: center;
+}
+
+.footer-social p {
+  font-size: 16px;
+  line-height: 19px;
+  color: #FBFBFB;
+}
+
+.footer-social-list {
+  list-style: none;
+  display: flex;
+  margin-top: 0;
+}
+
+.footer-social-item {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  margin-left: 7px;
+}
+
+.social-button {
+  flex-grow: 1;
+  display: flex;
+  background-color: #FFFFFF;
+}
+
+.social-button img {
+  margin: auto;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color: #F16D7F;
 }/*# sourceMappingURL=style.css.map */

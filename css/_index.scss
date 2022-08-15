@@ -1,0 +1,300 @@
+.header_main {
+    background-color: #F1E4E6;
+}
+
+.header_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header_info__text {
+    margin: auto 0;
+    padding-right: 120px;
+    padding-left: 16px;
+    border-left: 1rem solid #F16D7F;
+}
+
+
+.header_h1 {
+    @extend .font;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+    margin: 0;
+}
+
+.header_text {
+    @extend .font;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+
+.header_text span {
+    color: #F16D7F;
+}
+
+/* -----------------------------
+----------Банер-------------- */
+.project {
+    margin-top: 65px;
+    margin-bottom: 96px;
+}
+
+.project_parent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.project_parent__item {
+    width: 360px;
+    height: 260px;
+    background: rgba(33, 22, 22);
+    text-align: center;
+    background-position: center;
+
+}
+
+.project_parent__item:hover {
+    background: none;
+}
+
+.project__item {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    opacity: 0.3;
+    padding-top: 105px;
+    /* background-size: contain; */
+    background-size: 100% 100%;
+}
+
+.project__item:hover {
+    opacity: 1;
+}
+
+.project__item1 {
+    background-image: url("..//img/project-1.png");
+}
+
+.project__item2 {
+    background-image: url("..//img/project-2.png");
+}
+
+
+.project__item3 {
+    background-image: url("..//img/project-3.png");
+}
+
+.project__text_parent {
+    @extend .font;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.project__text {
+    @extend .font;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.project__text__span {
+    @extend .font;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+.project_parent_button {
+    display: flex;
+}
+
+.project_parent_button__item {
+    width: 1140px;
+    min-height: 180px;
+    background: rgba(33, 22, 22);
+    text-align: center;
+}
+
+.project_parent_button__item:hover {
+    background: none;
+}
+
+.project__item4 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    opacity: 0.3;
+    padding-top: 65px;
+    background-image: url("..//img/project-4.png");
+    background-size: 100% 100%;
+}
+
+.project__item4:hover {
+    opacity: 1;
+}
+
+
+/* Стилизация карточек товаров */
+/* --------------------------- */
+
+.item_sec {
+    margin-bottom: 60px;
+}
+
+.item {
+    width: 360px;
+    position: relative;
+}
+
+.item_link {
+    display: block;
+    text-decoration: none;
+}
+
+.text_box {
+    padding-top: 24px;
+}
+
+.item_pic {
+    width: 100%;
+}
+
+.item:hover .item_pic {
+    filter: brightness(30%);
+}
+
+
+.add {
+    display: flex;
+    padding: 8px;
+    border: 1px solid #FFFFFF;
+    align-items: center;
+    text-decoration: none;
+    pointer-events: all;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.add_desc {
+    @extend .font;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding-left: 11px;
+}
+
+.add_box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 188px;
+    pointer-events: none;
+    display: none;
+}
+
+.add:hover {
+    box-shadow: 0px 0px 18px 2px #FFFFFF;
+}
+
+.item:hover .add_box {
+    display: flex;
+}
+
+
+.heading__h3__wat-we-do {
+    @extend .font;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.text_wat-we-do {
+    @extend .font;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #9F9F9F;
+}
+
+.card-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 48px;
+    padding-top: 48px;
+}
+
+.heading__mini {
+    @extend .font;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding-left: 18px;
+    padding-bottom: 13px;
+    text-transform: uppercase;
+    margin-top: 24px;
+}
+
+.text_card {
+    @extend .font;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding-left: 18px;
+}
+
+.price {
+    @extend .font;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 18px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    color: #F16D7F;
+}
+
+.item_button {
+    margin: 0 auto;
+}
+
+.button {
+    @extend .font;
+    font-size: 16px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    color: #F26376;
+    width: 211px;
+    height: 47px;
+    text-align: center;
+    line-height: 47px;
+    border: 1px solid #FF6A6A;
+}
+
+.button:hover {
+    background: #F16D7F;
+    border: 1px solid #FF6A6A;
+    color: #FFFFFF;
+}
+
+.button_link {
+    text-decoration: none;
+}
