@@ -907,8 +907,15 @@ ol.description_view {
 }
 
 .container_filter__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end
+}
+
+.filter_brend {
     position: relative;
     padding-top: 38px;
+    width: 378px;
     height: 115px;
 }
 
@@ -1055,6 +1062,158 @@ details>summary {
 }
 
 
+
+
+
+
+
+.choice_list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.choice_item {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-left: 28px;
+}
+
+.choice_item:nth-child(1) {
+    padding: 0;
+}
+
+.filter_choice {
+    position: relative;
+    padding-top: 51px;
+    width: 378px;
+    height: 115px;
+}
+
+.choice {
+    position: absolute;
+    position: left;
+    z-index: 999;
+}
+
+
+.choice_summary {
+    margin-bottom: 5px;
+}
+
+.choice_details .choice_summary {
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+}
+
+.choice_details[open] .choice_summary {
+    color: #EF5B70;
+}
+
+.choice_summary:hover {
+    color: #EF5B70;
+}
+
+/* Добавляем собственный маркер для закрытого состояния */
+.choice_details .choice_summary::after {
+    padding-right: 22px;
+    content: '';
+    background-image: url("..//img/choece.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.choice .choice_details[open] .choice_summary_list {
+    width: 112px;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    background-color: #FFFFFF;
+}
+
+.filter_list .filter_category {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    text-transform: uppercase;
+}
+
+.filter_list .filter_category:hover {
+    color: #EF5B70;
+}
+
+
+.filter_list[open] .filter_category {
+    color: #EF5B70;
+}
+
+.filter_child {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.choice_summary_list {
+    display: flex;
+    flex-direction: column;
+    padding: 9.5px 0 3.5px 9.5px;
+    margin: 0;
+}
+
+.choice_summary_list label:hover {
+    color: #EF5B70;
+}
+
+.choice_summary_list label {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6F6E6E;
+    padding-bottom: 6px;
+}
+
+
+
+.choice .choice_details[open] .choice_summary_list__size {
+    width: 79px;
+    margin-left: -15px;
+    margin-right: -13px;
+}
+
+.choice .choice_details[open] .choice_summary_price {
+    width: 79px;
+    margin-left: -10px;
+}
+
 .card-box__catalog {
     padding-top: 0px;
+
+}
+
+
+.Page1 {
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+.page-link1 {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #C4C4C4;
+}
+
+.page-link1:hover {
+    color: #EF5B70;
 }
