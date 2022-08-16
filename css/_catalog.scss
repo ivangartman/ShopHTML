@@ -272,12 +272,27 @@ details>summary {
 
 }
 
+// -------------Пагинация----------------------
 .Page1 {
     margin: 0 auto;
     margin-top: 48px;
 }
 
-.page-link1 {
+
+.pagination1 {
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+}
+
+.page-item1:hover {
+    // border: 5px solid #000000;
+    // background-color: #000000;
+}
+
+.page-link_mod,
+.page-link_next,
+.page-link_previous {
+    border: none;
     @extend .font;
     font-weight: 300;
     font-size: 16px;
@@ -285,6 +300,15 @@ details>summary {
     color: #C4C4C4;
 }
 
-.page-link1:hover {
+.page-link_mod:hover,
+.page-link_next:hover,
+.page-link_previous:hover {
+    background-color: #FFFFFF;
     color: #EF5B70;
+}
+
+.page-link_mod:focus {
+    background-color: #FFFFFF;
+    color: #EF5B70;
+    box-shadow: none;
 }

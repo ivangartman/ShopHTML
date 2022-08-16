@@ -20,7 +20,9 @@
   margin: 0 auto;
 }
 
-.font, .footer-social p, .form_input, .text_form, .form_h3, .footer_contact__text, .footer_top__text, .footer_top__h3, .page-link1, .choice_details .choice_summary, .filter_category__link, .filter_list .filter_category, .filter_top .filter_top__item, .description_button__link, .description_view__text, .description_price, .description_text__3, .description_text__2, .description_text__1, .breadcrumb-item__text, .nav_product_item__H3, .button, .price, .text_card, .heading__mini, .text_wat-we-do, .heading__h3__wat-we-do, .add_desc, .project__text__span, .project__text, .project__text_parent, .header_text, .header_h1, .mega_link, .mega_heading, .mega_box_heading {
+.font, .footer-social p, .form_input, .text_form, .form_h3, .footer_contact__text, .footer_top__text, .footer_top__h3, .page-link_mod,
+.page-link_next,
+.page-link_previous, .choice_details .choice_summary, .filter_category__link, .filter_list .filter_category, .filter_top .filter_top__item, .description_button__link, .description_view__text, .description_price, .description_text__3, .description_text__2, .description_text__1, .breadcrumb-item__text, .nav_product_item__H3, .button, .price, .text_card, .heading__mini, .text_wat-we-do, .heading__h3__wat-we-do, .add_desc, .project__text__span, .project__text, .project__text_parent, .header_text, .header_h1, .mega_link, .mega_heading, .mega_box_heading {
   font-family: "Lora", serif;
   font-style: normal;
   font-weight: 400;
@@ -921,15 +923,32 @@ details > summary {
   margin-top: 48px;
 }
 
-.page-link1 {
+.pagination1 {
+  border: 1px solid #EBEBEB;
+  border-radius: 3px;
+}
+
+.page-link_mod,
+.page-link_next,
+.page-link_previous {
+  border: none;
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
   color: #C4C4C4;
 }
 
-.page-link1:hover {
+.page-link_mod:hover,
+.page-link_next:hover,
+.page-link_previous:hover {
+  background-color: #FFFFFF;
   color: #EF5B70;
+}
+
+.page-link_mod:focus {
+  background-color: #FFFFFF;
+  color: #EF5B70;
+  box-shadow: none;
 }
 
 .footer_top {
