@@ -29,6 +29,7 @@ details>summary {
 
 .filter_top {
     padding: 13px 16px 0px 16px;
+    transition: box-shadow 0.8s;
 }
 
 .filter_top .filter_top__item {
@@ -225,6 +226,7 @@ details>summary {
     flex-direction: column;
     padding: 9.5px 0 3.5px 9.5px;
     margin: 0;
+    transition: box-shadow 0.8s;
 }
 
 .choice_summary_list label:hover {

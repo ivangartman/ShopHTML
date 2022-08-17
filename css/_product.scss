@@ -218,6 +218,7 @@ ol.description_view {
     background-repeat: no-repeat;
     background-position: left;
     background-position: 23px;
+    transition: all 2s;
 }
 
 .description_button__link:hover {
@@ -228,6 +229,7 @@ ol.description_view {
     background-repeat: no-repeat;
     background-position: left;
     background-position: 23px;
+    transform: scale(1.2);
 }
 
 .description_button__text {

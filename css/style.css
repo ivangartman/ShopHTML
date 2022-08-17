@@ -292,10 +292,12 @@ header {
 
 .item_pic {
   width: 100%;
+  transition: all 1.5s;
 }
 
 .item:hover .item_pic {
   filter: brightness(30%);
+  transform: scale(0.9);
 }
 
 .add {
@@ -412,12 +414,14 @@ header {
   text-align: center;
   line-height: 47px;
   border: 1px solid #FF6A6A;
+  transition: all 1.8s;
 }
 
 .button:hover {
   background: #F16D7F;
   border: 1px solid #FF6A6A;
   color: #FFFFFF;
+  transform: scale(1.2);
 }
 
 .button_link {
@@ -667,6 +671,7 @@ ol.description_view {
   background-repeat: no-repeat;
   background-position: left;
   background-position: 23px;
+  transition: all 2s;
 }
 
 .description_button__link:hover {
@@ -677,6 +682,7 @@ ol.description_view {
   background-repeat: no-repeat;
   background-position: left;
   background-position: 23px;
+  transform: scale(1.2);
 }
 
 .description_button__text {
@@ -715,6 +721,7 @@ details > summary {
 
 .filter_top {
   padding: 13px 16px 0px 16px;
+  transition: box-shadow 0.8s;
 }
 
 .filter_top .filter_top__item {
@@ -922,6 +929,7 @@ details > summary {
   flex-direction: column;
   padding: 9.5px 0 3.5px 9.5px;
   margin: 0;
+  transition: box-shadow 0.8s;
 }
 
 .choice_summary_list label:hover {
@@ -1114,12 +1122,14 @@ details > summary {
   border-radius: 0 50px 50px 0;
   border: 1px solid transparent;
   margin-left: -4px;
+  transition: all 1.8s;
 }
 
 .form_button:hover {
   background-color: #FFFFFF;
   color: #F16D7F;
   border: 1px solid #FF6A6A;
+  transform: translateX(-50px);
 }
 
 /* Стилизация футера социальные сети */
@@ -1161,6 +1171,7 @@ details > summary {
   flex-grow: 1;
   display: flex;
   background-color: #FFFFFF;
+  transition: all 1.2s;
 }
 
 .social-button img {
@@ -1170,4 +1181,5 @@ details > summary {
 .social-button:hover,
 .social-button:focus {
   background-color: #F16D7F;
+  transform: scale(1.5);
 }/*# sourceMappingURL=style.css.map */

@@ -50,7 +50,6 @@
     background: rgba(33, 22, 22);
     text-align: center;
     background-position: center;
-
 }
 
 .project_parent__item:hover {
@@ -157,10 +156,12 @@
 
 .item_pic {
     width: 100%;
+    transition: all 1.5s;
 }
 
 .item:hover .item_pic {
     filter: brightness(30%);
+    transform: scale(0.9);
 }
 
 
@@ -258,12 +259,14 @@
     text-align: center;
     line-height: 47px;
     border: 1px solid #FF6A6A;
+    transition: all 1.8s;
 }
 
 .button:hover {
     background: #F16D7F;
     border: 1px solid #FF6A6A;
     color: #FFFFFF;
+    transform: scale(1.2);
 }
 
 .button_link {
