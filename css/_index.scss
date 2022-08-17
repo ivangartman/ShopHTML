@@ -18,19 +18,13 @@
 
 .header_h1 {
     @extend .font;
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 58px;
-    color: #222222;
+    @include txt(900, 58px, 48px, #222222, none);
     margin: 0;
 }
 
 .header_text {
     @extend .font;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    color: #222222;
+    @include txt(700, 38px, 32px, #222222, none);
 }
 
 .header_text span {
@@ -94,25 +88,18 @@
 
 .project__text_parent {
     @extend .font;
-    font-size: 16px;
-    line-height: 19px;
-    color: #FFFFFF;
+    @include txt(400, 19px, 16px, #FFFFFF, none);
 }
 
 .project__text {
     @extend .font;
-    font-size: 16px;
-    line-height: 19px;
-    color: #FFFFFF;
+    @include txt(400, 19px, 16px, #FFFFFF, none);
     text-align: center;
 }
 
 .project__text__span {
     @extend .font;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    color: #F16D7F;
+    @include txt(700, 29px, 24px, #F16D7F, none);
 }
 
 .project_parent_button {
@@ -190,9 +177,7 @@
 
 .add_desc {
     @extend .font;
-    font-size: 14px;
-    line-height: 17px;
-    color: #FFFFFF;
+    @include txt(400, 17px, 14px, #FFFFFF, none);
     margin: 0 auto;
     padding-left: 11px;
 }
@@ -218,20 +203,15 @@
 
 .heading__h3__wat-we-do {
     @extend .font;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    color: #222222;
+    @include txt(700, 36px, 30px, #222222, none);
     text-align: center;
     margin-bottom: 6px;
 }
 
 .text_wat-we-do {
     @extend .font;
-    font-size: 14px;
-    line-height: 17px;
+    @include txt(400, 17px, 14px, #9F9F9F, none);
     text-align: center;
-    color: #9F9F9F;
 }
 
 .card-box {
@@ -244,32 +224,24 @@
 
 .heading__mini {
     @extend .font;
-    font-size: 13px;
-    line-height: 16px;
-    color: #000000;
+    @include txt(400, 16px, 13px, #000000, uppercase);
     padding-left: 18px;
     padding-bottom: 13px;
-    text-transform: uppercase;
     margin-top: 24px;
 }
 
 .text_card {
     @extend .font;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    color: #5D5D5D;
+    @include txt(300, 17px, 14px, #5D5D5D, none);
     padding-left: 18px;
 }
 
 .price {
     @extend .font;
-    font-size: 16px;
-    line-height: 19px;
+    @include txt(400, 19px, 16px, #F16D7F, none);
     padding-left: 18px;
     margin-top: 18px;
     margin-bottom: 20px;
-    color: #F16D7F;
 }
 
 .item_button {
@@ -278,10 +250,9 @@
 
 .button {
     @extend .font;
-    font-size: 16px;
+    @include txt(400, 19px, 16px, #F26376, none);
     margin: 0 auto;
     background-color: #FFFFFF;
-    color: #F26376;
     width: 211px;
     height: 47px;
     text-align: center;

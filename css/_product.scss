@@ -13,18 +13,13 @@
 
 .nav_product_item__H3 {
     @extend .font;
-    font-size: 24px;
-    line-height: 29px;
-    color: #F16D7F;
+    @include txt(400, 29px, 24px, #F16D7F, none);
     margin: 0;
 }
 
 .breadcrumb-item__text {
     @extend .font;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    color: #636363;
+    @include txt(300, 17px, 14px, #636363, none);
     text-decoration: none;
     padding: 0;
 }
@@ -135,31 +130,20 @@ ol.product {
 
 .description_text__1 {
     @extend .font;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    color: #F16D7F;
-    text-transform: uppercase;
+    @include txt(300, 17px, 14px, #F16D7F, uppercase);
     margin: 0;
 }
 
 .description_text__2 {
     @extend .font;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    color: #4D4D4D;
-    text-transform: uppercase;
+    @include txt(300, 22px, 18px, #4D4D4D, uppercase);
     margin: 0;
 }
 
 .description_text__3 {
     @extend .font;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
+    @include txt(300, 17px, 14px, #5E5E5E, none);
     text-align: center;
-    color: #5E5E5E;
     margin-top: 48px;
     margin-bottom: 32px;
 }
@@ -167,10 +151,7 @@ ol.product {
 
 .description_price {
     @extend .font;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 29px;
-    color: #EF5B70;
+    @include txt(300, 29px, 24px, #EF5B70, none);
     margin: 0;
 }
 
@@ -198,9 +179,7 @@ ol.product {
 
 .description_view__text {
     @extend .font;
-    font-size: 14px;
-    line-height: 17px;
-    color: #6F6E6E;
+    @include txt(400, 17px, 14px, #6F6E6E, none);
     padding-left: 23px;
     text-decoration: none;
 }
@@ -227,7 +206,6 @@ ol.description_view {
     text-decoration: none;
     margin: 0 auto;
     background-color: #FFFFFF;
-    color: #F26376;
     width: 211px;
     height: 47px;
     text-align: center;
@@ -235,7 +213,7 @@ ol.description_view {
     line-height: 47px;
     border: 1px solid #FF6A6A;
     @extend .font;
-    font-size: 16px;
+    @include txt(400, 19px, 16px, #F26376, none);
     background-image: url("..//img/basket-red.svg");
     background-repeat: no-repeat;
     background-position: left;

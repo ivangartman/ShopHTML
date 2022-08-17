@@ -23,8 +23,14 @@
 .font {
     font-family: 'Lora', serif;
     font-style: normal;
-    font-weight: 400;
-    @extend .font;
+}
+
+@mixin txt ($fw, $lh, $fs, $fc, $tt) {
+    font-weight: $fw;
+    line-height: $lh;
+    font-size: $fs;
+    color: $fc;
+    text-transform: $tt;
 }
 
 // --------Подключение header-------------

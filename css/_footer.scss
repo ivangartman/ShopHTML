@@ -16,20 +16,15 @@
 
 .footer_top__h3 {
     @extend .font;
-    font-size: 20px;
-    line-height: 24px;
-    color: #FBFBFB;
+    @include txt(400, 24px, 20px, #FBFBFB, none);
     margin-top: 19px;
     margin-bottom: 16px;
 }
 
 .footer_top__text {
     @extend .font;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
+    @include txt(300, 17px, 14px, #FBFBFB, none);
     text-align: center;
-    color: #FBFBFB;
 }
 
 .foter_contact {
@@ -59,10 +54,8 @@
 
 .footer_contact__text {
     @extend .font;
-    font-size: 20px;
-    line-height: 24px;
+    @include txt(400, 24px, 20px, #222224, none);
     text-align: center;
-    color: #222224;
 }
 
 .footer_contact__form {
@@ -72,19 +65,12 @@
 
 .form_h3 {
     @extend .font;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 40px;
-    color: #222224;
-    text-transform: uppercase;
+    @include txt(700, 40px, 24px, #222224, uppercase);
 }
 
 .text_form {
     @extend .font;
-    font-size: 18px;
-    line-height: 30px;
-    color: #222224;
-    text-transform: uppercase;
+    @include txt(400, 30px, 18px, #222224, uppercase);
     margin-bottom: 32px;
 }
 
@@ -97,10 +83,8 @@
     height: 49px;
     border-radius: 50px 0 0 50px;
     @extend .font;
-    font-size: 14px;
-    line-height: 17px;
+    @include txt(400, 17px, 14px, #222224, none);
     align-items: center;
-    color: #222224;
     opacity: 0.67;
     padding: 22px;
 }
@@ -141,9 +125,7 @@
 
 .footer-social p {
     @extend .font;
-    font-size: 16px;
-    line-height: 19px;
-    color: #FBFBFB;
+    @include txt(400, 19px, 16px, #FBFBFB, none);
 }
 
 .footer-social-list {
