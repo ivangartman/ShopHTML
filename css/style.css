@@ -928,7 +928,8 @@ details > summary {
   color: #EF5B70;
 }
 
-.choice_summary_list label {
+.choice_summary_list label,
+.choice_price {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -939,6 +940,11 @@ details > summary {
   padding-bottom: 6px;
 }
 
+.choice_price {
+  text-align: center;
+  margin-top: 10px;
+}
+
 .choice .choice_details[open] .choice_summary_list__size {
   width: 79px;
   margin-left: -15px;
@@ -946,8 +952,9 @@ details > summary {
 }
 
 .choice .choice_details[open] .choice_summary_price {
-  width: 79px;
+  width: 100px;
   margin-left: -10px;
+  padding-right: 10px;
 }
 
 .card-box__catalog {

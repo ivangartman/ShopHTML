@@ -231,11 +231,17 @@ details>summary {
     color: #EF5B70;
 }
 
-.choice_summary_list label {
+.choice_summary_list label,
+.choice_price {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     @include txt(400, 16px, 14px, #6F6E6E, none);
     padding-bottom: 6px;
+}
+
+.choice_price {
+    text-align: center;
+    margin-top: 10px;
 }
 
 .choice .choice_details[open] .choice_summary_list__size {
@@ -245,8 +251,9 @@ details>summary {
 }
 
 .choice .choice_details[open] .choice_summary_price {
-    width: 79px;
+    width: 100px;
     margin-left: -10px;
+    padding-right: 10px;
 }
 
 .card-box__catalog {
