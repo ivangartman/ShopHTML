@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Lora", serif;
-}
-
 .wrapper {
   min-height: 100vh;
   display: flex;
@@ -22,6 +18,13 @@ body {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+.font, .footer-social p, .form_input, .text_form, .form_h3, .footer_contact__text, .footer_top__text, .footer_top__h3, .page-link_mod,
+.page-link_next,
+.page-link_previous, .choice_details .choice_summary, .filter_category__link, .filter_list .filter_category, .filter_top .filter_top__item, .description_button__link, .description_view__text, .description_price, .description_text__3, .description_text__2, .description_text__1, .breadcrumb-item__text, .nav_product_item__H3, .button, .price, .text_card, .heading__mini, .text_wat-we-do, .heading__h3__wat-we-do, .add_desc, .project__text__span, .project__text, .project__text_parent, .header_text, .header_h1, .mega_link, .mega_heading, .mega_box_heading {
+  font-family: "Lora", serif;
+  font-style: normal;
 }
 
 header {
@@ -75,11 +78,9 @@ header {
 }
 
 .mega_box_heading {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 700;
-  font-size: 14px;
   line-height: 17px;
+  font-size: 14px;
   color: #000000;
   text-transform: uppercase;
   margin-bottom: 24px;
@@ -90,24 +91,22 @@ header {
 }
 
 .mega_heading {
-  font-family: "Lora", serif;
-  font-size: 14px;
   font-weight: 700;
   line-height: 17px;
+  font-size: 14px;
+  color: #F16D7F;
   text-transform: uppercase;
   margin-bottom: 12px;
   width: 144px;
-  color: #F16D7F;
 }
 
 .mega_link {
   display: block;
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 17px;
+  font-size: 14px;
   color: #6F6E6E;
+  text-transform: none;
   text-decoration: none;
   padding-bottom: 11px;
   padding-left: 23px;
@@ -142,17 +141,20 @@ header {
 }
 
 .header_h1 {
-  margin: 0;
   font-weight: 900;
-  font-size: 48px;
   line-height: 58px;
+  font-size: 48px;
   color: #222222;
+  text-transform: none;
+  margin: 0;
 }
 
 .header_text {
   font-weight: 700;
-  font-size: 32px;
   line-height: 38px;
+  font-size: 32px;
+  color: #222222;
+  text-transform: none;
 }
 
 .header_text span {
@@ -214,24 +216,27 @@ header {
 
 .project__text_parent {
   font-weight: 400;
-  font-size: 16px;
   line-height: 19px;
+  font-size: 16px;
   color: #FFFFFF;
+  text-transform: none;
 }
 
 .project__text {
   font-weight: 400;
-  font-size: 16px;
   line-height: 19px;
+  font-size: 16px;
   color: #FFFFFF;
+  text-transform: none;
   text-align: center;
 }
 
 .project__text__span {
   font-weight: 700;
-  font-size: 24px;
   line-height: 29px;
+  font-size: 24px;
   color: #F16D7F;
+  text-transform: none;
 }
 
 .project_parent_button {
@@ -265,7 +270,6 @@ header {
   opacity: 1;
 }
 
-/* --------------------------- */
 /* Стилизация карточек товаров */
 /* --------------------------- */
 .item_sec {
@@ -288,10 +292,12 @@ header {
 
 .item_pic {
   width: 100%;
+  transition: all 1.5s;
 }
 
 .item:hover .item_pic {
   filter: brightness(30%);
+  transform: scale(0.9);
 }
 
 .add {
@@ -306,12 +312,11 @@ header {
 }
 
 .add_desc {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 17px;
+  font-size: 14px;
   color: #FFFFFF;
+  text-transform: none;
   margin: 0 auto;
   padding-left: 11px;
 }
@@ -335,24 +340,22 @@ header {
 }
 
 .heading__h3__wat-we-do {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
+  font-weight: 700;
   line-height: 36px;
+  font-size: 30px;
   color: #222222;
+  text-transform: none;
   text-align: center;
   margin-bottom: 6px;
 }
 
 .text_wat-we-do {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 17px;
-  text-align: center;
+  font-size: 14px;
   color: #9F9F9F;
+  text-transform: none;
+  text-align: center;
 }
 
 .card-box {
@@ -364,38 +367,34 @@ header {
 }
 
 .heading__mini {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 400;
-  font-size: 13px;
   line-height: 16px;
+  font-size: 13px;
   color: #000000;
+  text-transform: uppercase;
   padding-left: 18px;
   padding-bottom: 13px;
-  text-transform: uppercase;
   margin-top: 24px;
 }
 
 .text_card {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 300;
-  font-size: 14px;
   line-height: 17px;
+  font-size: 14px;
   color: #5D5D5D;
+  text-transform: none;
   padding-left: 18px;
 }
 
 .price {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 400;
-  font-size: 16px;
   line-height: 19px;
+  font-size: 16px;
+  color: #F16D7F;
+  text-transform: none;
   padding-left: 18px;
   margin-top: 18px;
   margin-bottom: 20px;
-  color: #F16D7F;
 }
 
 .item_button {
@@ -403,222 +402,32 @@ header {
 }
 
 .button {
+  font-weight: 400;
+  line-height: 19px;
+  font-size: 16px;
+  color: #F26376;
+  text-transform: none;
   margin: 0 auto;
   background-color: #FFFFFF;
-  color: #F26376;
   width: 211px;
   height: 47px;
   text-align: center;
   line-height: 47px;
   border: 1px solid #FF6A6A;
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
+  transition: all 1.8s;
 }
 
 .button:hover {
   background: #F16D7F;
   border: 1px solid #FF6A6A;
   color: #FFFFFF;
+  transform: scale(1.2);
 }
 
 .button_link {
   text-decoration: none;
 }
 
-/* Стилизация футера */
-/* --------------------------- */
-.footer_top {
-  background: #222224;
-}
-
-.footer_top__info {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 104px;
-  padding-bottom: 104px;
-}
-
-.footer_top__content {
-  width: 360px;
-  text-align: center;
-}
-
-.footer_top__h3 {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  color: #FBFBFB;
-  margin-top: 19px;
-  margin-bottom: 16px;
-}
-
-.footer_top__text {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 17px;
-  text-align: center;
-  color: #FBFBFB;
-}
-
-.foter_contact {
-  background-image: url("..//img/footer.png");
-  background-size: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.footer_contact_container {
-  padding-top: 87px;
-  padding-bottom: 127px;
-  display: flex;
-  align-items: center;
-}
-
-.footer_contact__content {
-  width: 360px;
-  text-align: center;
-}
-
-.footer_contact__img {
-  border-radius: 50%;
-  overflow: hidden;
-  margin-bottom: 10px;
-}
-
-.footer_contact__text {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-  color: #222224;
-}
-
-.footer_contact__form {
-  padding-left: 327px;
-  text-align: center;
-}
-
-.form_h3 {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 40px;
-  color: #222224;
-  text-transform: uppercase;
-}
-
-.text_form {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-  color: #222224;
-  text-transform: uppercase;
-  margin-bottom: 32px;
-}
-
-.form_input {
-  background: #E1E1E1;
-  border: 1px solid transparent;
-  outline: none;
-  width: 256px;
-  height: 49px;
-  border-radius: 50px 0 0 50px;
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  align-items: center;
-  color: #222224;
-  opacity: 0.67;
-  padding: 22px;
-}
-
-.form_button {
-  margin: auto 0;
-  background-color: #F16D7F;
-  color: #FFFFFF;
-  width: 100px;
-  height: 49px;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 0 50px 50px 0;
-  border: 1px solid transparent;
-  margin-left: -4px;
-}
-
-.form_button:hover {
-  background-color: #FFFFFF;
-  color: #F16D7F;
-  border: 1px solid #FF6A6A;
-}
-
-/* Стилизация футера социальные сети */
-/* --------------------------- */
-.footer_botton {
-  background: #222224;
-}
-
-.footer-social {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  align-items: center;
-}
-
-.footer-social p {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FBFBFB;
-}
-
-.footer-social-list {
-  list-style: none;
-  display: flex;
-  margin-top: 0;
-}
-
-.footer-social-item {
-  display: flex;
-  width: 32px;
-  height: 32px;
-  margin-left: 7px;
-}
-
-.social-button {
-  flex-grow: 1;
-  display: flex;
-  background-color: #FFFFFF;
-}
-
-.social-button img {
-  margin: auto;
-}
-
-.social-button:hover,
-.social-button:focus {
-  background-color: #F16D7F;
-}
-
-/* --------------------------- */
-/* --------------------------- */
-/* СТИЛИЗАЦИЯ СТРАНИЦЫ PRODUCT */
-/* --------------------------- */
-/* --------------------------- */
 /* Стилизация хлебных крошек */
 /* --------------------------- */
 .nav_product {
@@ -633,22 +442,20 @@ header {
 }
 
 .nav_product_item__H3 {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 400;
-  font-size: 24px;
   line-height: 29px;
+  font-size: 24px;
   color: #F16D7F;
+  text-transform: none;
   margin: 0;
 }
 
 .breadcrumb-item__text {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 300;
-  font-size: 14px;
   line-height: 17px;
+  font-size: 14px;
   color: #636363;
+  text-transform: none;
   text-decoration: none;
   padding: 0;
 }
@@ -758,47 +565,40 @@ ol.product {
 }
 
 .description_text__1 {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 300;
-  font-size: 14px;
   line-height: 17px;
+  font-size: 14px;
   color: #F16D7F;
   text-transform: uppercase;
   margin: 0;
 }
 
 .description_text__2 {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 300;
-  font-size: 18px;
   line-height: 22px;
+  font-size: 18px;
   color: #4D4D4D;
   text-transform: uppercase;
   margin: 0;
 }
 
 .description_text__3 {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 300;
-  font-size: 14px;
   line-height: 17px;
-  text-align: center;
+  font-size: 14px;
   color: #5E5E5E;
+  text-transform: none;
+  text-align: center;
   margin-top: 48px;
   margin-bottom: 32px;
 }
 
 .description_price {
-  font-family: "Lora", serif;
-  font-family: "Lato";
-  font-style: normal;
   font-weight: 300;
-  font-size: 24px;
   line-height: 29px;
+  font-size: 24px;
   color: #EF5B70;
+  text-transform: none;
   margin: 0;
 }
 
@@ -825,14 +625,13 @@ ol.product {
 }
 
 .description_view__text {
-  text-decoration: none;
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 17px;
+  font-size: 14px;
   color: #6F6E6E;
+  text-transform: none;
   padding-left: 23px;
+  text-decoration: none;
 }
 
 .description_view__text:hover {
@@ -857,21 +656,22 @@ ol.description_view {
   text-decoration: none;
   margin: 0 auto;
   background-color: #FFFFFF;
-  color: #F26376;
   width: 211px;
   height: 47px;
   text-align: center;
   align-items: center;
   line-height: 47px;
   border: 1px solid #FF6A6A;
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 400;
+  line-height: 19px;
   font-size: 16px;
+  color: #F26376;
+  text-transform: none;
   background-image: url("..//img/basket-red.svg");
   background-repeat: no-repeat;
   background-position: left;
   background-position: 23px;
+  transition: all 2s;
 }
 
 .description_button__link:hover {
@@ -882,6 +682,7 @@ ol.description_view {
   background-repeat: no-repeat;
   background-position: left;
   background-position: 23px;
+  transform: scale(1.2);
 }
 
 .description_button__text {
@@ -920,14 +721,13 @@ details > summary {
 
 .filter_top {
   padding: 13px 16px 0px 16px;
+  transition: box-shadow 0.8s;
 }
 
 .filter_top .filter_top__item {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 600;
-  font-size: 14px;
   line-height: 17px;
+  font-size: 14px;
   color: #000000;
   text-transform: uppercase;
 }
@@ -972,11 +772,9 @@ details > summary {
 }
 
 .filter_list .filter_category {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 17px;
+  font-size: 14px;
   color: #6F6E6E;
   text-transform: uppercase;
 }
@@ -1025,13 +823,12 @@ details > summary {
 
 .filter_category__link {
   display: block;
-  text-decoration: none;
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 17px;
+  font-size: 14px;
   color: #6F6E6E;
+  text-transform: none;
+  text-decoration: none;
   padding-top: 5.5px;
   padding-bottom: 5.5px;
 }
@@ -1075,13 +872,11 @@ details > summary {
 }
 
 .choice_details .choice_summary {
-  text-transform: uppercase;
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 17px;
+  font-size: 14px;
   color: #6F6E6E;
+  text-transform: uppercase;
 }
 
 .choice_details[open] .choice_summary {
@@ -1108,11 +903,9 @@ details > summary {
 }
 
 .filter_list .filter_category {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 17px;
+  font-size: 14px;
   color: #6F6E6E;
   text-transform: uppercase;
 }
@@ -1136,20 +929,28 @@ details > summary {
   flex-direction: column;
   padding: 9.5px 0 3.5px 9.5px;
   margin: 0;
+  transition: box-shadow 0.8s;
 }
 
 .choice_summary_list label:hover {
   color: #EF5B70;
 }
 
-.choice_summary_list label {
+.choice_summary_list label,
+.choice_price {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 16px;
+  font-size: 14px;
   color: #6F6E6E;
+  text-transform: none;
   padding-bottom: 6px;
+}
+
+.choice_price {
+  text-align: center;
+  margin-top: 10px;
 }
 
 .choice .choice_details[open] .choice_summary_list__size {
@@ -1159,8 +960,9 @@ details > summary {
 }
 
 .choice .choice_details[open] .choice_summary_price {
-  width: 79px;
+  width: 100px;
   margin-left: -10px;
+  padding-right: 10px;
 }
 
 .card-box__catalog {
@@ -1172,15 +974,212 @@ details > summary {
   margin-top: 48px;
 }
 
-.page-link1 {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
-  color: #C4C4C4;
+.pagination1 {
+  border: 1px solid #EBEBEB;
+  border-radius: 3px;
 }
 
-.page-link1:hover {
+.page-link_mod,
+.page-link_next,
+.page-link_previous {
+  border: none;
+  font-weight: 300;
+  line-height: 19px;
+  font-size: 16px;
+  color: #C4C4C4;
+  text-transform: none;
+}
+
+.page-link_mod:hover,
+.page-link_next:hover,
+.page-link_previous:hover {
+  background-color: #FFFFFF;
   color: #EF5B70;
+}
+
+.page-link_mod:focus {
+  background-color: #FFFFFF;
+  color: #EF5B70;
+  box-shadow: none;
+}
+
+.footer_top {
+  background: #222224;
+}
+
+.footer_top__info {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 104px;
+  padding-bottom: 104px;
+}
+
+.footer_top__content {
+  width: 360px;
+  text-align: center;
+}
+
+.footer_top__h3 {
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 20px;
+  color: #FBFBFB;
+  text-transform: none;
+  margin-top: 19px;
+  margin-bottom: 16px;
+}
+
+.footer_top__text {
+  font-weight: 300;
+  line-height: 17px;
+  font-size: 14px;
+  color: #FBFBFB;
+  text-transform: none;
+  text-align: center;
+}
+
+.foter_contact {
+  background-image: url("..//img/footer.png");
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer_contact_container {
+  padding-top: 87px;
+  padding-bottom: 127px;
+  display: flex;
+  align-items: center;
+}
+
+.footer_contact__content {
+  width: 360px;
+  text-align: center;
+}
+
+.footer_contact__img {
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.footer_contact__text {
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 20px;
+  color: #222224;
+  text-transform: none;
+  text-align: center;
+}
+
+.footer_contact__form {
+  padding-left: 327px;
+  text-align: center;
+}
+
+.form_h3 {
+  font-weight: 700;
+  line-height: 40px;
+  font-size: 24px;
+  color: #222224;
+  text-transform: uppercase;
+}
+
+.text_form {
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
+  color: #222224;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.form_input {
+  background: #E1E1E1;
+  border: 1px solid transparent;
+  outline: none;
+  width: 256px;
+  height: 49px;
+  border-radius: 50px 0 0 50px;
+  font-weight: 400;
+  line-height: 17px;
+  font-size: 14px;
+  color: #222224;
+  text-transform: none;
+  align-items: center;
+  opacity: 0.67;
+  padding: 22px;
+}
+
+.form_button {
+  margin: auto 0;
+  background-color: #F16D7F;
+  color: #FFFFFF;
+  width: 100px;
+  height: 49px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 0 50px 50px 0;
+  border: 1px solid transparent;
+  margin-left: -4px;
+  transition: all 1.8s;
+}
+
+.form_button:hover {
+  background-color: #FFFFFF;
+  color: #F16D7F;
+  border: 1px solid #FF6A6A;
+  transform: translateX(-50px);
+}
+
+/* Стилизация футера социальные сети */
+/* --------------------------- */
+.footer_botton {
+  background: #222224;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  align-items: center;
+}
+
+.footer-social p {
+  font-weight: 400;
+  line-height: 19px;
+  font-size: 16px;
+  color: #FBFBFB;
+  text-transform: none;
+}
+
+.footer-social-list {
+  list-style: none;
+  display: flex;
+  margin-top: 0;
+}
+
+.footer-social-item {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  margin-left: 7px;
+}
+
+.social-button {
+  flex-grow: 1;
+  display: flex;
+  background-color: #FFFFFF;
+  transition: all 1.2s;
+}
+
+.social-button img {
+  margin: auto;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color: #F16D7F;
+  transform: scale(1.5);
 }/*# sourceMappingURL=style.css.map */

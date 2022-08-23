@@ -1,0 +1,162 @@
+.footer_top {
+    background: #222224;
+}
+
+.footer_top__info {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 104px;
+    padding-bottom: 104px;
+}
+
+.footer_top__content {
+    width: 360px;
+    text-align: center;
+}
+
+.footer_top__h3 {
+    @extend .font;
+    @include txt(400, 24px, 20px, #FBFBFB, none);
+    margin-top: 19px;
+    margin-bottom: 16px;
+}
+
+.footer_top__text {
+    @extend .font;
+    @include txt(300, 17px, 14px, #FBFBFB, none);
+    text-align: center;
+}
+
+.foter_contact {
+    background-image: url("..//img/footer.png");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer_contact_container {
+    padding-top: 87px;
+    padding-bottom: 127px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_contact__content {
+    width: 360px;
+    text-align: center;
+}
+
+.footer_contact__img {
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.footer_contact__text {
+    @extend .font;
+    @include txt(400, 24px, 20px, #222224, none);
+    text-align: center;
+}
+
+.footer_contact__form {
+    padding-left: 327px;
+    text-align: center;
+}
+
+.form_h3 {
+    @extend .font;
+    @include txt(700, 40px, 24px, #222224, uppercase);
+}
+
+.text_form {
+    @extend .font;
+    @include txt(400, 30px, 18px, #222224, uppercase);
+    margin-bottom: 32px;
+}
+
+
+.form_input {
+    background: #E1E1E1;
+    border: 1px solid transparent;
+    outline: none;
+    width: 256px;
+    height: 49px;
+    border-radius: 50px 0 0 50px;
+    @extend .font;
+    @include txt(400, 17px, 14px, #222224, none);
+    align-items: center;
+    opacity: 0.67;
+    padding: 22px;
+}
+
+.form_button {
+    margin: auto 0;
+    background-color: #F16D7F;
+    color: #FFFFFF;
+    width: 100px;
+    height: 49px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 0 50px 50px 0;
+    border: 1px solid transparent;
+    margin-left: -4px;
+    transition: all 1.8s;
+}
+
+.form_button:hover {
+    background-color: #FFFFFF;
+    color: #F16D7F;
+    border: 1px solid #FF6A6A;
+    transform: translateX(-50px);
+}
+
+/* Стилизация футера социальные сети */
+/* --------------------------- */
+
+.footer_botton {
+    background: #222224;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    align-items: center;
+}
+
+.footer-social p {
+    @extend .font;
+    @include txt(400, 19px, 16px, #FBFBFB, none);
+}
+
+.footer-social-list {
+    list-style: none;
+    display: flex;
+    margin-top: 0;
+}
+
+.footer-social-item {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    margin-left: 7px;
+}
+
+.social-button {
+    flex-grow: 1;
+    display: flex;
+    background-color: #FFFFFF;
+    transition: all 1.2s;
+}
+
+.social-button img {
+    margin: auto;
+}
+
+
+.social-button:hover,
+.social-button:focus {
+    background-color: #F16D7F;
+    transform: scale(1.5);
+}

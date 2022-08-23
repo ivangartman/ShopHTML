@@ -51,13 +51,8 @@ header {
 }
 
 .mega_box_heading {
-    font-family: 'Lora', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000000;
-    text-transform: uppercase;
+    @extend .font;
+    @include txt(700, 17px, 14px, #000000, uppercase);
     margin-bottom: 24px;
 }
 
@@ -66,24 +61,16 @@ header {
 }
 
 .mega_heading {
-    font-family: 'Lora', serif;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 17px;
-    text-transform: uppercase;
+    @extend .font;
+    @include txt(700, 17px, 14px, #F16D7F, uppercase);
     margin-bottom: 12px;
     width: 144px;
-    color: #F16D7F;
 }
 
 .mega_link {
     display: block;
-    font-family: 'Lora', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #6F6E6E;
+    @extend .font;
+    @include txt(400, 17px, 14px, #6F6E6E, none);
     text-decoration: none;
     padding-bottom: 11px;
     padding-left: 23px;
