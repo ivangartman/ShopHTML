@@ -1,9 +1,12 @@
 .registration {
+    display: flex;
+    justify-content: space-between;
     margin-top: 64px;
     margin-bottom: 96px;
 }
 
 .registration_form {
+    width: 32%;
     display: flex;
     flex-direction: column;
     border: none;
@@ -73,4 +76,26 @@
 
 .form_radio_next{
     margin-left: 25px;
+}
+
+.registracion_info{
+    width: 57%;
+}
+
+.registracion_info_h3{
+    @extend .font;
+    @include txt(300, 29px, 24px, #000000, uppercase);
+}
+
+.registracion_info_text{
+    @extend .font;
+    @include txt(300, 29px, 24px, #000000, none);
+    margin-top: 22px;
+    margin-bottom: 21px;
+}
+
+.registracion_info_text_list{
+    @extend .font;
+    @include txt(300, 29px, 24px, #000000, none);
+    margin-bottom: 16px;
 }

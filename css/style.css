@@ -30,28 +30,28 @@
 
 .font, .mega_box_heading, .mega_heading, .mega_link, .header_h1, .header_text, .project__text_parent, .project__text, .project__text__span, .add_desc, .heading__h3__wat-we-do, .text_wat-we-do, .heading__mini, .text_card, .price, .button, .nav_product_item__H3, .breadcrumb-item__text, .description_text__1, .description_text__2, .description_text__3, .description_price, .description_view__text, .description_button__link, .filter_top .filter_top__item, .filter_list .filter_category, .filter_category__link, .choice_details .choice_summary, .page-link_mod,
 .page-link_next,
-.page-link_previous, .cart_h3, .cart_text, .cart_button-href, .cart_form-text, .cart_form-input::-webkit-input-placeholder, .cart_form-submit, .cart_checkout_sub, .cart_checkout_text_grand, .cart_checkout_href, .registracion_form-text, .registration_form-input::-webkit-input-placeholder, .registration-text, .registration_form-submit, .footer_top__h3, .footer_top__text, .footer_contact__text, .form_h3, .text_form, .form_input, .footer-social p {
+.page-link_previous, .cart_h3, .cart_text, .cart_button-href, .cart_form-text, .cart_form-input::-webkit-input-placeholder, .cart_form-submit, .cart_checkout_sub, .cart_checkout_text_grand, .cart_checkout_href, .registracion_form-text, .registration_form-input::-webkit-input-placeholder, .registration-text, .registration_form-submit, .registracion_info_h3, .registracion_info_text, .registracion_info_text_list, .footer_top__h3, .footer_top__text, .footer_contact__text, .form_h3, .text_form, .form_input, .footer-social p {
   font-family: 'Lora', serif;
   font-style: normal;
 }
 
 .font, .mega_box_heading, .mega_heading, .mega_link, .header_h1, .header_text, .project__text_parent, .project__text, .project__text__span, .add_desc, .heading__h3__wat-we-do, .text_wat-we-do, .heading__mini, .text_card, .price, .button, .nav_product_item__H3, .breadcrumb-item__text, .description_text__1, .description_text__2, .description_text__3, .description_price, .description_view__text, .description_button__link, .filter_top .filter_top__item, .filter_list .filter_category, .filter_category__link, .choice_details .choice_summary, .page-link_mod,
 .page-link_next,
-.page-link_previous, .cart_h3, .cart_text, .cart_button-href, .cart_form-text, .cart_form-input:-ms-input-placeholder, .cart_form-submit, .cart_checkout_sub, .cart_checkout_text_grand, .cart_checkout_href, .registracion_form-text, .registration_form-input:-ms-input-placeholder, .registration-text, .registration_form-submit, .footer_top__h3, .footer_top__text, .footer_contact__text, .form_h3, .text_form, .form_input, .footer-social p {
+.page-link_previous, .cart_h3, .cart_text, .cart_button-href, .cart_form-text, .cart_form-input:-ms-input-placeholder, .cart_form-submit, .cart_checkout_sub, .cart_checkout_text_grand, .cart_checkout_href, .registracion_form-text, .registration_form-input:-ms-input-placeholder, .registration-text, .registration_form-submit, .registracion_info_h3, .registracion_info_text, .registracion_info_text_list, .footer_top__h3, .footer_top__text, .footer_contact__text, .form_h3, .text_form, .form_input, .footer-social p {
   font-family: 'Lora', serif;
   font-style: normal;
 }
 
 .font, .mega_box_heading, .mega_heading, .mega_link, .header_h1, .header_text, .project__text_parent, .project__text, .project__text__span, .add_desc, .heading__h3__wat-we-do, .text_wat-we-do, .heading__mini, .text_card, .price, .button, .nav_product_item__H3, .breadcrumb-item__text, .description_text__1, .description_text__2, .description_text__3, .description_price, .description_view__text, .description_button__link, .filter_top .filter_top__item, .filter_list .filter_category, .filter_category__link, .choice_details .choice_summary, .page-link_mod,
 .page-link_next,
-.page-link_previous, .cart_h3, .cart_text, .cart_button-href, .cart_form-text, .cart_form-input::-ms-input-placeholder, .cart_form-submit, .cart_checkout_sub, .cart_checkout_text_grand, .cart_checkout_href, .registracion_form-text, .registration_form-input::-ms-input-placeholder, .registration-text, .registration_form-submit, .footer_top__h3, .footer_top__text, .footer_contact__text, .form_h3, .text_form, .form_input, .footer-social p {
+.page-link_previous, .cart_h3, .cart_text, .cart_button-href, .cart_form-text, .cart_form-input::-ms-input-placeholder, .cart_form-submit, .cart_checkout_sub, .cart_checkout_text_grand, .cart_checkout_href, .registracion_form-text, .registration_form-input::-ms-input-placeholder, .registration-text, .registration_form-submit, .registracion_info_h3, .registracion_info_text, .registracion_info_text_list, .footer_top__h3, .footer_top__text, .footer_contact__text, .form_h3, .text_form, .form_input, .footer-social p {
   font-family: 'Lora', serif;
   font-style: normal;
 }
 
 .font, .mega_box_heading, .mega_heading, .mega_link, .header_h1, .header_text, .project__text_parent, .project__text, .project__text__span, .add_desc, .heading__h3__wat-we-do, .text_wat-we-do, .heading__mini, .text_card, .price, .button, .nav_product_item__H3, .breadcrumb-item__text, .description_text__1, .description_text__2, .description_text__3, .description_price, .description_view__text, .description_button__link, .filter_top .filter_top__item, .filter_list .filter_category, .filter_category__link, .choice_details .choice_summary, .page-link_mod,
 .page-link_next,
-.page-link_previous, .cart_h3, .cart_text, .cart_button-href, .cart_form-text, .cart_form-input::placeholder, .cart_form-submit, .cart_checkout_sub, .cart_checkout_text_grand, .cart_checkout_href, .registracion_form-text, .registration_form-input::placeholder, .registration-text, .registration_form-submit, .footer_top__h3, .footer_top__text, .footer_contact__text, .form_h3, .text_form, .form_input, .footer-social p {
+.page-link_previous, .cart_h3, .cart_text, .cart_button-href, .cart_form-text, .cart_form-input::placeholder, .cart_form-submit, .cart_checkout_sub, .cart_checkout_text_grand, .cart_checkout_href, .registracion_form-text, .registration_form-input::placeholder, .registration-text, .registration_form-submit, .registracion_info_h3, .registracion_info_text, .registracion_info_text_list, .footer_top__h3, .footer_top__text, .footer_contact__text, .form_h3, .text_form, .form_input, .footer-social p {
   font-family: 'Lora', serif;
   font-style: normal;
 }
@@ -1381,11 +1381,18 @@ details > summary {
 }
 
 .registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 64px;
   margin-bottom: 96px;
 }
 
 .registration_form {
+  width: 32%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1501,6 +1508,37 @@ details > summary {
 
 .form_radio_next {
   margin-left: 25px;
+}
+
+.registracion_info {
+  width: 57%;
+}
+
+.registracion_info_h3 {
+  font-weight: 300;
+  line-height: 29px;
+  font-size: 24px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.registracion_info_text {
+  font-weight: 300;
+  line-height: 29px;
+  font-size: 24px;
+  color: #000000;
+  text-transform: none;
+  margin-top: 22px;
+  margin-bottom: 21px;
+}
+
+.registracion_info_text_list {
+  font-weight: 300;
+  line-height: 29px;
+  font-size: 24px;
+  color: #000000;
+  text-transform: none;
+  margin-bottom: 16px;
 }
 
 .footer_top {
