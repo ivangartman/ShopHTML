@@ -101,7 +101,7 @@
     margin-bottom: 16px;
 }
 
-@media (min-width: 500px) and (max-width: 768px) {
+@media (min-width: 600px) and (max-width: 768px) {
 
     .registracion_info_h3 {
         @include txt(300, 19px, 16px, #000000, uppercase);
@@ -116,9 +116,13 @@
     }
 }
 
-@media (min-width: 200px) and (max-width: 499px){
+@media (min-width: 200px) and (max-width: 599px) {
     .registration {
-   flex-direction: column;
+        flex-direction: column;
+    }
+
+    .registration_form {
+        margin: 0 auto;
     }
 
     .registracion_info {
@@ -126,5 +130,5 @@
         margin-top: 40px;
         margin-left: 0px;
     }
-   
+
 }

@@ -1149,6 +1149,10 @@ details > summary {
   list-style: none;
 }
 
+.cart_img {
+  height: 100%;
+}
+
 .cart_info {
   padding-top: 22px;
   padding-left: 31px;
@@ -1544,7 +1548,7 @@ details > summary {
   margin-bottom: 16px;
 }
 
-@media (min-width: 500px) and (max-width: 768px) {
+@media (min-width: 600px) and (max-width: 768px) {
   .registracion_info_h3 {
     font-weight: 300;
     line-height: 19px;
@@ -1568,12 +1572,15 @@ details > summary {
   }
 }
 
-@media (min-width: 200px) and (max-width: 499px) {
+@media (min-width: 200px) and (max-width: 599px) {
   .registration {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .registration_form {
+    margin: 0 auto;
   }
   .registracion_info {
     max-width: 100%;
@@ -1633,6 +1640,9 @@ details > summary {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1659,7 +1669,6 @@ details > summary {
 }
 
 .footer_contact__form {
-  padding-left: 327px;
   text-align: center;
 }
 
@@ -1788,5 +1797,30 @@ details > summary {
   background-color: #F16D7F;
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
+}
+
+@media (max-width: 768px) {
+  .footer_contact__content {
+    margin: 0 auto;
+    margin-bottom: 48px;
+  }
+  .footer_contact_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer-social {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .footer-social-list {
+    margin-bottom: 25px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
