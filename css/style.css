@@ -6,6 +6,10 @@
           box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 .wrapper {
   min-height: 100vh;
   display: -webkit-box;
