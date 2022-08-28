@@ -17,6 +17,8 @@
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 // ------------Общие шрифты для @extend
@@ -47,6 +49,10 @@
 
 // --------Подключение cart-------------
 @import "cart";
+
+
+// --------Подключение footer-------------
+@import "registration";
 
 // --------Подключение footer-------------
 @import "footer";

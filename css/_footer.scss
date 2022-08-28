@@ -38,6 +38,7 @@
     padding-top: 87px;
     padding-bottom: 127px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -59,7 +60,6 @@
 }
 
 .footer_contact__form {
-    padding-left: 327px;
     text-align: center;
 }
 
@@ -159,4 +159,28 @@
 .social-button:focus {
     background-color: #F16D7F;
     transform: scale(1.5);
+}
+
+@media (max-width: 768px) {
+
+    .footer_contact__content {
+        margin: 0 auto;
+        margin-bottom: 48px;
+    }
+
+    .footer_contact_container {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .footer-social {
+        flex-direction: column-reverse;
+    }
+
+    .footer-social-list{
+        margin-bottom: 25px;
+    }
 }
