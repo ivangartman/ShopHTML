@@ -179,6 +179,18 @@ header {
           justify-content: space-between;
 }
 
+.header_info_img {
+  max-width: 25%;
+}
+
+.header_info_img_item {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .header_info__text {
   margin: auto 0;
   padding-right: 120px;
@@ -211,7 +223,6 @@ header {
 ----------Банер-------------- */
 .project {
   margin-top: 65px;
-  margin-bottom: 96px;
 }
 
 .project_parent {
@@ -225,7 +236,7 @@ header {
 }
 
 .project_parent__item {
-  width: 360px;
+  width: 32%;
   min-height: 260px;
   background: #211616;
   text-align: center;
@@ -238,7 +249,6 @@ header {
 
 .project__item {
   display: block;
-  width: 100%;
   height: 100%;
   text-decoration: none;
   opacity: 0.3;
@@ -296,7 +306,7 @@ header {
 }
 
 .project_parent_button__item {
-  width: 1140px;
+  width: 100%;
   min-height: 180px;
   background: #211616;
   text-align: center;
@@ -308,14 +318,15 @@ header {
 
 .project__item4 {
   display: block;
-  width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   text-decoration: none;
   opacity: 0.3;
   padding-top: 65px;
   background-image: url("..//img/project-4.png");
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .project__item4:hover {
@@ -325,7 +336,8 @@ header {
 /* Стилизация карточек товаров */
 /* --------------------------- */
 .item_sec {
-  margin-bottom: 60px;
+  margin-top: 96px;
+  margin-bottom: 96px;
 }
 
 .item {
@@ -499,6 +511,125 @@ header {
 
 .button_link {
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .header_h1 {
+    font-weight: 900;
+    line-height: 53px;
+    font-size: 44px;
+    color: #222222;
+    text-transform: none;
+  }
+  .header_text {
+    font-weight: 700;
+    line-height: 29px;
+    font-size: 24px;
+    color: #222222;
+    text-transform: none;
+  }
+  .header_info_img {
+    max-width: 40%;
+  }
+  .header_info__text {
+    padding-right: 0;
+  }
+  .project {
+    margin-top: 20px;
+  }
+  .project_parent {
+    margin-bottom: 20px;
+  }
+  .project_parent__item {
+    min-height: 168px;
+  }
+  .project_parent_button__item {
+    min-height: 116px;
+  }
+  .project__item {
+    padding-top: 59px;
+  }
+  .project__item4 {
+    padding-top: 33px;
+  }
+  .item_sec {
+    margin-top: 155px;
+    margin-bottom: 65px;
+  }
+}
+
+@media (max-width: 732px) {
+  .card-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 551px) {
+  .header_h1 {
+    font-weight: 900;
+    line-height: 46px;
+    font-size: 38px;
+    color: #222222;
+    text-transform: none;
+  }
+  .header_text {
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 20px;
+    color: #222222;
+    text-transform: none;
+  }
+}
+
+@media (max-width: 466px) {
+  .header_info_img {
+    max-width: 0%;
+  }
+  .header_info {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+
+@media (max-width: 375px) {
+  .project_parent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0;
+  }
+  .project_parent__item {
+    width: 100%;
+    min-height: 247px;
+    margin-bottom: 32px;
+  }
+  .project_parent_button__item {
+    min-height: 111px;
+  }
+  .project__item {
+    height: 100%;
+    padding-top: 99px;
+    padding-bottom: 99px;
+  }
+  .project__item4 {
+    padding-top: 30px;
+  }
+  .project {
+    margin-top: 65px;
+  }
 }
 
 /* Стилизация хлебных крошек */
@@ -1548,7 +1679,7 @@ details > summary {
   margin-bottom: 16px;
 }
 
-@media (min-width: 600px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .registracion_info_h3 {
     font-weight: 300;
     line-height: 19px;
@@ -1572,7 +1703,7 @@ details > summary {
   }
 }
 
-@media (min-width: 200px) and (max-width: 599px) {
+@media (max-width: 500px) {
   .registration {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1800,6 +1931,20 @@ details > summary {
 }
 
 @media (max-width: 768px) {
+  .footer_top__info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 0;
+    padding-bottom: 64px;
+  }
+  .footer_top__content {
+    padding-top: 48px;
+  }
   .footer_contact__content {
     margin: 0 auto;
     margin-bottom: 48px;
@@ -1821,6 +1966,9 @@ details > summary {
   }
   .footer-social-list {
     margin-bottom: 25px;
+  }
+  .form_input {
+    width: 200px;
   }
 }
 /*# sourceMappingURL=style.css.map */
