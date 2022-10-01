@@ -28,7 +28,7 @@
 }
 
 
-.header_h1 {
+.header_h2 {
     @extend .font;
     @include txt(900, 58px, 48px, #222222, none);
     margin: 0;
@@ -288,7 +288,7 @@
 }
 
 @media (max-width: 768px) {
-    .header_h1 {
+    .header_h2 {
         @include txt(900, 53px, 44px, #222222, none);
     }
 
@@ -343,7 +343,7 @@
 
 @media (max-width: 551px) {
 
-    .header_h1 {
+    .header_h2 {
         @include txt(900, 46px, 38px, #222222, none);
     }
 
